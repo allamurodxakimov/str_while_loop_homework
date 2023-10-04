@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    c=0
+    a=0
+    while a<len(s):
+        if s[a].isalpha():
+            c+=1
+        a+=1
+    return c
+print(main("Python 2022"))
+print(main("ered2iri"))
