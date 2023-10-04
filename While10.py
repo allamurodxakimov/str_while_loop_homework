@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    c=0
+    k=""
+    while a<len(s):
+        if int(s[a])%2==1:
+            k+=s[a]
+            c+=int(s[a])
+        a+=1
+    return k,c
+print(main("12345"))
