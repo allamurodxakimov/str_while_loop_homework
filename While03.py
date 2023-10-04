@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    c=0
+    k=0
+    while a<len(s):
+        if s[a].isalpha() or s[a].isdigit():
+            k+=1
+        else:
+            c+=1
+        a+=1
+    return c
+print(main("akdgid@kd#$"))
