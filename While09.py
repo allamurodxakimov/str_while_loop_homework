@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    c=0
+    while a<len(s):
+        c+=int(s[a])
+        a+=1
+    return c
+print(main("123456789"))
